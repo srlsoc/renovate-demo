@@ -1,0 +1,39 @@
+{
+  "name": "renovate-demo-browser",
+  "version": "0.0.0",
+  "description": "renovate-demo-browser",
+  "private": true,
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/karma start test/karma-unit-headless.conf.js",
+    "selenium": "../node_modules/.bin/mocha ./test/selenium/*.js --config ./test/selenium.mocharc.js"
+  },
+  "devDependencies": {
+    "@vue/test-utils": "1.3.0",
+    "babel-polyfill": "6.23.0",
+    "chai": "4.1.1",
+    "chai-subset": "^1.6.0",
+    "gulp": "^4.0.2",
+    "karma": "^4.4.1",
+    "karma-babel-preprocessor": "7.0.0",
+    "karma-chai": "^0.1.0",
+    "karma-chrome-launcher": "2.2.0",
+    "karma-coffee-preprocessor": "1.0.1",
+    "karma-coverage": "1.1.2",
+    "karma-firefox-launcher": "1.1.0",
+    "karma-htmlfile-reporter": "0.3.7",
+    "karma-mocha": "1.3.0",
+    "karma-mocha-reporter": "2.2.5",
+    "karma-safari-launcher": "1.0.0",
+    "karma-sinon-chai": "2.0.2",
+    "karma-sourcemap-loader": "^0.3.7",
+    "karma-spec-reporter": "0.0.32",
+    "karma-story-reporter": "0.3.1",
+    "karma-webpack": "3.0.0",
+    "protractor": "5.4.1",
+    "selenium-webdriver": "4.0.0-alpha.7",
+    "sinon": "7.1.1",
+    "sinon-chai": "3.2.0"
+  },
+  "dependencies": {}
+}
