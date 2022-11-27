@@ -11,6 +11,10 @@
     {
       "matchPackagePatterns": ["^eslint"],
       "automerge": true
+    },
+    {
+      "matchUpdateTypes": ["major"],
+      "dependencyDashboardApproval": true
     }
   ],
   "prConcurrentLimit": 3,
