@@ -9,7 +9,7 @@
     "selenium": "../node_modules/.bin/mocha ./test/selenium/*.js --config ./test/selenium.mocharc.js"
   },
   "devDependencies": {
-    "@vue/test-utils": "1.3.0",
+    "@vue/test-utils": "1.3.6",
     "babel-polyfill": "6.23.0",
     "chai": "4.1.1",
     "chai-subset": "^1.6.0",
