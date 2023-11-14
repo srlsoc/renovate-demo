@@ -61,7 +61,7 @@
     "angular-touch": "1.4.3",
     "angular-ui-router": "0.2.15",
     "angular-ui-tree": "2.22.5",
-    "archiver": "5.3.0",
+    "archiver": "5.3.2",
     "async": "1.0.0",
     "aws-sdk": "^2.1223.0",
     "axios": "0.26.1",
