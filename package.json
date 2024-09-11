@@ -89,7 +89,7 @@
     "csv-parse": "4.4.6",
     "csv-stringify": "1.0.4",
     "dropzone": "4.2.0",
-    "express": "4.16.2",
+    "express": "4.20.0",
     "express-prom-bundle": "^6.4.1",
     "express-rate-limit": "2.14.2",
     "express-session": "1.15.6",
